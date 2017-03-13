@@ -10,7 +10,7 @@ namespace hello_apinat
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Apinat");
+            Console.WriteLine("Hello Apinat t: kikkelipenis ");
         }
     }
 }
