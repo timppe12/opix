@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4d4d4d"
+    android:weightSum="100"
+    android:minHeight="25px"
+    android:minWidth="25px">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:background="@drawable/opixlogo123"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:maxHeight="30dp" />
+    <Button
+        android:text="Sign in"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/BtnSignIn"
+        android:background="@drawable/logInTausta"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:clickable="true" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Username" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_margintop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:text="Sign up"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/BtnSignUp"
+        android:background="@drawable/logInTausta"
+        android:textStyle="bold"
+        android:clickable="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_gravity="center">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar1"
+            android:background="@drawable/latautuminen"
+            android:indeterminate="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

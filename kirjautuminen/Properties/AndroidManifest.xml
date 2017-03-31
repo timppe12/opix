@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Opix.Opix" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="25" />
+	<application android:label="OpiX"></application>
+</manifest>
+<!--Do you have a shared runtime build of your app with 
+AndroidManifest.xml android:minSdkVersion < 10 while running on a 64-bit Android 5.0 target?
+This combination is not supported.-->
